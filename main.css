@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    transition: background-color 1s ease;
+    background-color: rgb(63, 139, 177);
+   
+    font-size: 22px;
+    font-family: "Medio", sans-serif;
+    font-weight: 100;
+    margin: 0;
+    
+
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container1 {
+ width: 100vw;
+ height: 100vh;
+ padding: 20px;
+ /*background-color:rgb(211, 219, 223);*/
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+ 
+
+
+ 
+}
+
+
+h1{
+    /*background-color: blue;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+p{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    font-family: "Avenir Next";
+    font-weight: 100;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+#tittel1 {
+    
+  
+
+}
+
+#p1{
+
+
+
+}
+
+.content{
+
+}
+
+#content1{
+width: 85%;
+margin: 80px auto; 
+height: 85%;
+background-image: url(./img/mountain.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+transition: 1s cubic-bezier(.25, .46, .45, .94);
+
+
+}
+
+
+#container2 {
+
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    /*background-color:#0E0805;*/
+    text-align: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+
+
+}
+
+.content {
+ width: 85%;
+ margin: 80px auto;
+ height: 85%;
+ transition: 1s cubic-bezier(.25, .46, .45, .94);
+ 
+
+}
+
+#tittel2 {
+       
+ }
+
+
+#content2 {
+   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    background-image: url(./img/fugl\ copy.jpg);
+    width: 85%;
+    margin: 80px auto;
+    height: 85%;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+
+
+
+}
+
+
+
+
+
+
+#container3 {
+   
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+   /* background-color: #050508;*/
+    text-align: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+
+}
+
+
+
+
+#content3 {
+   
+    width: 85%;
+    margin: 80px auto;
+    height: 85%;
+     background-image: url(./img/header2\ copy.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     transition: 1s cubic-bezier(.25, .46, .45, .94);
+
+
+}
+
+
+
+@keyframes fadeInn {
+    from {
+        opacity: 0;
+        filter: blur(1px);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.ikkeFader {
+    animation: fadeOut 2s forwards;
+}
+
+.fader {
+    animation: fadeInn 2s forwards;
+}
