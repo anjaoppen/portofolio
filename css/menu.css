@@ -1,11 +1,11 @@
 nav {
     position: fixed;
     z-index: 1;
-    background: #ffff;
-    color: #cdcdcd;
+    background: grey;
+    color: grey;
     letter-spacing: 2px;
     font-weight: 100;
-    color: white;
+    color: grey;
 
 
 }
@@ -70,7 +70,7 @@ a:hover {
     height: 2px;
     margin-bottom: 5px;
     position: relative;
-    background: white;
+    background: grey;
     z-index: 1;
     margin: 15px;
 
@@ -125,7 +125,7 @@ a:hover {
     padding: 100px;
     padding-top: 150px;
 
-    background: #ededed;
+    background:grey;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
