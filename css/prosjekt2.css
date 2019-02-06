@@ -20,6 +20,10 @@ main {
     padding: 0;
 }
 
+#tittel1{
+    
+    text-transform: uppercase;
+}
 
 #container1 {
     width: 100vw;
@@ -53,7 +57,6 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 100;
     color: white;
@@ -86,7 +89,6 @@ p {
 
 .brandname {
     color: grey;
-    text-transform: lowercase;
     letter-spacing: 2px;
     font-size: 45px;
 
