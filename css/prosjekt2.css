@@ -150,7 +150,7 @@ width: 100vw;
 
 
 #container2 {
-
+    padding: 20px;
     width: 100vw;
     height: 1000px;
     margin-top: 20px;
@@ -176,12 +176,12 @@ width: 100vw;
 }
 
 .consept {
-top:50%;
-left: 2%;
-width: 400px;
+top:70%;
+left: 6.5%;
+width: 200px;
 height: 200px;
 position: absolute;
-
+border-top:2px solid orange;
 
 }
 
@@ -189,9 +189,9 @@ position: absolute;
     text-align: left;
     font-size: 16px;
     letter-spacing: 0px;
-    top:50%;
-    width: 60%;
-    color:rgb(100, 71, 71);
+    top:20%;
+    width: 100%;
+    color:grey;
     font-family: 'Lora',serif;
     font-weight: 100;
     line-height: 30px;
@@ -201,9 +201,11 @@ position: absolute;
 }
 
 #container3 {
-
+    margin-top: 20px;
+    margin-bottom: 50px;
     width: 100%;
-    height: 100vh;
+    height: 600px;
+    padding: 20px;
     /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
@@ -213,7 +215,7 @@ position: absolute;
 
 
 #content3 {
-    width: 90%;
+    width: 100%;
     height: 100%;
     background-image: url(../img/skogholt.mobile\ copy.png);
     background-repeat: no-repeat;
@@ -241,9 +243,126 @@ position: absolute;
 #content4 {
     width: 100%;
     height: 100%;
+    background-image: url(../img/last.skogholt\ copy.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+}
+
+
+.thirdintrobox{
+    width: 100vw;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+.thirdintro{
+ top:50%;
+ width: 50%;
+ 
+}
+
+.thirdintro p{
+
+         letter-spacing: 0px;
+         text-align: center;
+         font-size: 14px;
+         color: grey;
+         font-family: 'Lora',
+         serif;
+         font-weight: 100;
+         line-height: 25px;
+
+}
+
+
+#container5 {
+    margin-top: 40px;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+    /*background-color:#0E0805;*/
+    text-align: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+
+
+}
+
+#content5 {
+    width: 100%;
+    height: 100%;
     background-image: url(../img/skogholt.white.perspetive\ copy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
+}
+
+
+
+
+
+#container6 {
+
+    width: 100vw;
+    height: 50vh;
+    /*background-color:#0E0805;*/
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+#content6 {
+    width: 100%;
+    height: 100%;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+    
+}
+
+.visit{
+color: grey;
+font-size: 40px;
+text-transform: uppercase;
+}
+
+#container7 {
+
+    width: 100vw;
+    height: 50vh;
+    /*background-color:#0E0805;*/
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+
+
+}
+
+#content7 {
+    width: 100%;
+    height: 100%;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+    background-image: url(../img/header2\ copy.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+
+}
+
+.next {
+    color:white;
+    font-size: 40px;
+    text-transform: uppercase;
 }
