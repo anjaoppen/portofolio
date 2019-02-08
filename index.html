@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- hente inn jquery 1.7.1 bibliotek -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
-
-    <!-- clean up and rydd opp i forskjeller mellom nettlesere -->
+   
+     <!-- clean up and rydd opp i forskjeller mellom nettlesere -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 
     <!-- basis for klassen -->
@@ -19,14 +19,6 @@
 
     <link rel="stylesheet" type="text/css" href="./css/main.css" />   
 
-    <!-- jquery koden -->
-    <script type="text/javascript" src="fade.js"></script>
-
-    <!-- jquery koden -->
-    <script type="text/javascript" src="menu.js"></script>
-
-
-    </script>
 </head>
 
 <body>
@@ -112,6 +104,32 @@
         <div class="fade">Fade In 09</div>
         <div class="fade">Fade In 10</div>
     </div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCF8HNGZL2xcTgGoFaihPOd61Dh50SX8V8",
+        authDomain: "portofolio-3b916.firebaseapp.com",
+        databaseURL: "https://portofolio-3b916.firebaseio.com",
+        projectId: "portofolio-3b916",
+        storageBucket: "portofolio-3b916.appspot.com",
+        messagingSenderId: "977386089484"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<!-- hente inn jquery 1.7.1 bibliotek -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
+
+<!-- jquery koden -->
+<script type="text/javascript" src="fade.js"></script>
+
+<!-- jquery koden -->
+<script type="text/javascript" src="menu.js"></script>
+
 
 </body>
 
