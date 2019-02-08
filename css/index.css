@@ -204,3 +204,12 @@ p {
         
     }
 }
+
+@media only screen and (max-width: 780px) {
+    .p3 {
+        top: 60%;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+
+    }
+}
