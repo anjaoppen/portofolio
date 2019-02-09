@@ -48,6 +48,7 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
+  
 }
 
 
@@ -195,21 +196,53 @@ p {
     animation: fadeInn 2s forwards;
 }
 
-/*Endrer avstans på p i content3*/
-@media only screen and (max-width: 780px) {
-    .p3 {
-        top: 60%;
-         transition-duration: 0.2s;
-         transition-delay: 0.2s;
-        
+
+@media only screen and (max-width: 1024px) {
+
+   
+ p {
+    top: 60%;
     }
+
+#container1 {
+   
+    height: 500px;
+     transition-duration: 0.2s;
+     transition-delay: 0.2s;
+   
+
 }
 
-@media only screen and (max-width: 780px) {
-    .p3 {
-        top: 60%;
-        transition-duration: 0.2s;
-        transition-delay: 0.2s;
+#container2 {
 
-    }
+    height: 500px;
+     transition-duration: 0.2s;
+     transition-delay: 0.2s;
+
+
 }
+
+#container3 {
+
+    height: 500px;
+     transition-duration: 0.2s;
+     transition-delay: 0.2s;
+
+
+}
+}
+
+@media only screen and (max-width: 750px) {
+
+ h1 {
+     font-size: 35px;
+ }
+
+.p3 {
+    top: 60%;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+
+}
+}
+

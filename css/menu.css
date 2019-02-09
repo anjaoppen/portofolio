@@ -203,3 +203,42 @@ a:hover {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 700px) {
+
+    #menuToggle {
+       
+        top: 30px;
+        left: 20px;
+        
+        
+}
+
+#menuToggle input {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    
+ }
+ #menuToggle span {
+
+     transform-origin: 1px -4px;
+     width: 40px;
+     height: 2px;
+     margin-bottom: 6px;
+     margin: 10px;
+     
+}
+#menu {
+    width: 100vw;
+    height: 100vh;
+    margin: -83px 0 0 -20px;
+    padding: 5px;
+    padding-top: 50px;
+       
+}
+}

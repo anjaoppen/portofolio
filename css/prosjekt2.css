@@ -381,25 +381,9 @@ text-transform: uppercase;
         transition-delay: 1s;
     }
 
-        #container2 {
-        height: 500px;
-        transition-duration: 1s;
-        transition-delay: 1s;
-
+    #container2{ 
+       height: 750px;
        }
-       
-  #content2 {
-     
-      transition-delay: 1s;
-      transition-delay: 1s;
-
-  }
-
-#content3 {
-    width: 100%;
-    height: 100%;
-  
-    }
 
     #container3 {
         margin-top: 5px;
@@ -439,7 +423,7 @@ text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 30px;
     width: 100%;
-    height: 500px;
+    height: 700px;
     padding: 20px;
     transition-delay: 1s;
     transition-delay: 1s;
@@ -453,5 +437,109 @@ text-transform: uppercase;
     padding: 20px;
     transition-delay: 1s;
     transition-delay: 1s;
+}
+}
+/*bilder til ipad */
+@media only screen and (max-width: 770px) {
+#container2 {
+    height: 500px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+
+#container5 {
+    height: 500px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+}
+
+/*mobil*/
+@media only screen and (max-width: 650px) {
+
+    .gridbox {
+        margin-top: 50px;
+        height: 100px;
+        width: 100vw;
+
+    }
+
+.intro span {
+
+    font-size: 10px
+}
+
+.secondintro {
+    top: 40%;
+    width: 75%;
+}
+
+.seconintrobox{
+height: 300px;
+margin-top: 30px;
+}
+
+#container2{
+
+height: 300px;
+
+}
+
+#container3 {
+
+    height: 300px;
+
+}
+
+#content3 {
+    width: 110%;
+    height: 100%;
+    background-position: right;
+    
+    
+}
+
+.thirdintrobox {
+    height: 400px;
+
+}
+.thirdintro p {
+
+    
+    text-align: left;
+    
+   
+}
+
+
+#container4{
+
+    height: 300px;
+
+}
+
+#container5 {
+
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+#container6 {
+
+    height: 200px;
+
+}
+
+#container7{
+
+    height: 300px;
+
+}
+
+.consept {
+
+    display: none;
+
 }
 }
