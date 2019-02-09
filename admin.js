@@ -12,10 +12,6 @@ const db = firebase.database();
 const storage = firebase.storage();
 const portfolio = db.ref("portfolio");
 
-//funksjon som lagrer bildet i databasen
-function lagreBildet(evt){
-    evt.preventDefault();
-}
 
 // Et array til å lagre bildene før vi legger inn i databasen
 const bilderSomSkalLastesOpp = [];
@@ -86,8 +82,6 @@ function lastOppBilde(evt) {
         });
 
 }
-
-
 
 // Event Listeners
 inpBilde.addEventListener("change", visBildeinfo);
