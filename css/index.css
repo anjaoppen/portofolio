@@ -151,6 +151,35 @@ p {
 
 }
 
+#container5{
+
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    /* background-color: #050508;*/
+    text-align: center;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+
+}
+
+#content5 {
+
+    width: 85%;
+    margin: 80px auto;
+    height: 85%;
+    background-image: url(../img/jordmødrene\ i\ afganistan\ close-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+
+
+}
+
+
 
 @keyframes fadeInn {
     from {

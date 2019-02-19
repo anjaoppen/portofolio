@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    transition: background-color 1s ease;
+    background-color: rgb(211, 219, 223);
+    font-size: 22px;
+    font-family: "Medio", sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container1 {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    /*background-color:rgb(211, 219, 223);*/
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    /*background-color: blue;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    
+}
+
+
+p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-family: "Avenir Next";
+    font-weight: 100;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#content1 {
+    width: 85%;
+    margin: 80px auto;
+    height: 85%;
+   background-color:pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s cubic-bezier(.25, .46, .45, .94);
+}
