@@ -10,7 +10,7 @@ const infoOpplasting = document.querySelector("#infoOpplasting");
 // Firebase
 const db = firebase.database();
 const storage = firebase.storage();
-const portfolio = db.ref("portfolio");
+const portofolio = db.ref("portofolio");
 
 
 // Et array til å lagre bildene før vi legger inn i databasen
