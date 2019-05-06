@@ -11,6 +11,8 @@
     <!-- clean up and rydd opp i forskjeller mellom nettlesere -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- basis for klassen -->
     <link rel="stylesheet" type="text/css" href="css/fade.css">
 
@@ -63,56 +65,11 @@
         </nav>
     </main>
 
-    <div>
-        <div id="container1">
-            <div id="content1" class="fade">
-                <a href="prosjekt.html">
-                    <h1 class="tittel1"> Bergans </h1>
-                    <p>01</p>
-                </a>
-            </div>
-        </div>
-
-        <div id="container2">
-            <div id="content2" class="fade">
-                <a href="prosjekt2.html">
-                    <h1 class="tittel1"> Skogholt </h1>
-                    <p>02</p>
-                </a>
-            </div>
-        </div>
-
-        <div id="container3">
-            <div id="content3" class="fade">
-                <a href="prosjekt3.html">
-                    <h1 class="tittel1"> De forgelmte </h1>
-                    <p class="p3">03</p>
-                </a>
-            </div>
-        </div>
-
-
-        <div id="container4">
-            <div id="content4" class="fade">
-                <a href="prosjekt4.html">
-                    <h1 class="tittel1"> Ishingst </h1>
-                    <p class="p3">04</p>
-                </a>
-            </div>
-        </div>
-
-
-<div id="container5">
-    <div id="content5" class="fade">
-        <a href="prosjekt5.html">
-            <h1 class="tittel1"> Bokomslag </h1>
-            <p class="p3">05</p>
-        </a>
-    </div>
-</div>
+    <div id="prosjekter">
+        
         <!--<div class="fade">Fade In 01</div>-->
         <!--div class="fade">Fade In 02</div>-->
-        <div class="fade"></div>
+        
     </div>
 
 <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
@@ -137,6 +94,14 @@
 
     <!-- jquery koden -->
     <script type="text/javascript" src="menu.js"></script>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+
+    <script src="./index.js"></script>
+
 </body>
 
 </html>

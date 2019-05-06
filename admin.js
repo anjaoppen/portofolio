@@ -1,10 +1,16 @@
 // HTML-elementer
 const skjemaBilder = document.querySelector("#skjemaBilder");
+const skjemaInfo = document.querySelector("#skjemaInfo");
 const inpBilde = document.querySelector("#inpBilde");
+const inpBeskrivelse = document.querySelector("#inpBeskrivelse");
 const infoBilde = document.querySelector("#infoBilde");
 const inpTekst = document.querySelector("#inpTekst");
+const inpTittel = document.querySelector("#inpTittel");
+const inpLink = document.querySelector("#inpLink");
 const ulBilder = document.querySelector("#ulBilder");
 const infoOpplasting = document.querySelector("#infoOpplasting");
+const overlay = document.querySelector("#overlay");
+const overlay2 = document.querySelector("#overlay2");
 
 
 // Firebase
@@ -51,10 +57,7 @@ function lastOppBilde(evt) {
     lagringsPlass.put(bilde)
         .then(opplastetBilde => opplastetBilde.ref.getDownloadURL())
         .then(url => {
-            bilderSomSkalLastesOpp.push({
-                url: url,
-                tekst: inpTekst.value
-            });
+            bilderSomSkalLastesOpp.push(url);
             overlay.style.display = "none";
             const div = document.createElement("div");
             div.innerHTML = `
@@ -83,6 +86,27 @@ function lastOppBilde(evt) {
 
 }
 
+function lagreProsjekt(evt) {
+    evt.preventDefault();
+    portofolio.push({
+        tittel : inpTittel.value,
+        beskrivelse : inpBeskrivelse.value,
+        prosjektLink: inpLink.value,
+        bildeURL: bilderSomSkalLastesOpp[0]
+    })
+
+    skjemaBilder.reset();
+    skjemaInfo.reset();
+    infoOpplasting.innerText = "Ingen bilder lastet opp ennå";
+    ulBilder.innerHTML = "";
+    infoBilde.innerText = "Velg bilde";
+
+    overlay2.style.display = "flex";
+    setTimeout(function() {overlay2.style.display = "none"}, 1000);
+
+}
+
 // Event Listeners
 inpBilde.addEventListener("change", visBildeinfo);
 skjemaBilder.addEventListener("submit", lastOppBilde);
+skjemaInfo.addEventListener("submit", lagreProsjekt);

@@ -19,8 +19,7 @@
             <form id="skjemaBilder">
                 <label for="inpBilde" class="button">Velg bilde</label>
                 <input type="file" id="inpBilde" class="show-for-sr">
-                <span id="infoBilde">Velg bilde</span>
-                <input type="text" id="inpTekst" required placeholder="Beskrivelse av bildet">
+                <span id="infoBilde">Velg bilde</span>                
                 <button class="button" type="submit">Last opp bilde</button>
             </form>
             <div class="callout success" id="bildecontainer">
@@ -35,7 +34,9 @@
                 <label>Tittel</label>
                 <input type="text" id="inpTittel" required>
                 <label>Beskrivelse</label>
-                <textarea id="taBeskrivelse"></textarea>
+                <input id="inpBeskrivelse" required>
+                <label>Link til prosjektet</label>
+                <input id="inpLink" required placeholder="prosjekt2.html">
                 <button class="button expanded" type="submit">LAGRE PROSJEKT</button>
             </form>
         </section>
@@ -45,6 +46,11 @@
     <div id="overlay">
         <img src="./ikoner/spinner.gif">
         <p>Laster opp bilde...</p>
+    </div>
+
+    <div id="overlay2">
+        <img src="./ikoner/spinner.gif">
+        <p>Lasgrer prosjekt...</p>
     </div>
 
 

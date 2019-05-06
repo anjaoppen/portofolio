@@ -43,7 +43,7 @@ h1 strong {
     animation: slide 1s ease-in-out;
 }
 
-#overlay {
+#overlay, #overlay2 {
     position: absolute;
     left: 0;
     top: 0;
