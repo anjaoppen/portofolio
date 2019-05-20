@@ -45,23 +45,29 @@ h1 {
 
 p {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     font-family: "Avenir Next";
     font-weight: 100;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
 }
 
+.secondintro {
+        top: 50%;
+        width: 50%;
+}
+
 #content1 {
-    width: 85%;
+    width: 80%;
     margin: 80px auto;
     height: 85%;
-   background-color:pink;
+    /*background-image: url(../img/anja\ profilbilde.jpg);*/
+    background-color: pink;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }

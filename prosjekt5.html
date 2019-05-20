@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
     <meta charset="UTF-8">
@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
     <!-- hente inn jquery 1.7.1 bibliotek -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.7.1.js"></script>
 
     <!-- clean up and rydd opp i forskjeller mellom nettlesere -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 
     <!-- basis for klassen -->
     <link rel="stylesheet" type="text/css" href="css/menu.css">
@@ -21,10 +22,10 @@
     <link rel="stylesheet" type="text/css" href="css/prosjekt5.css">
 
     <!-- jquery koden -->
-    <script type="text/javascript" src="fadeunder.js"></script>
+    <script src="fadeunder.js"></script>
 
     <!-- jquery koden -->
-    <script type="text/javascript" src="menu.js"></script>
+    <script src="menu.js"></script>
 
 
 </head>
@@ -32,42 +33,23 @@
 <body>
 
     <main>
-        <nav role="navigation">
+        <nav>
             <div id="menuToggle">
-                <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
+    
                 <input type="checkbox" />
 
-                <!--
-        Some spans to act as a hamburger.
-        
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
                 <span></span>
                 <span></span>
                 <span></span>
 
-                <!--
-        Too bad the menu has to be 
-        inside of the button
-        but hey, it's pure CSS magic.
-        -->
                 <ul id="menu">
-                    <a href="index.html">
-                        <li>Hjem</li>
-                    </a>
-                    <a href="#">
-                        <li>Om</li>
-                    </a>
-                        <li>Kontakt</li>
-                    </a>
-
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#">Om</a></li>
+                    <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
+
 
 
         <div id="container1" data-color="violet">
@@ -88,13 +70,13 @@
 
         <div class="seconintrobox">
             <div class="secondintro">
-                <p class="secondintro p">I 2015 ønsket Aschehoug forlag å redesignet omslaget på boken til Kristin Solberg.
-                "Jordmødrene i Afghanistan" Historien om kvinnene som risikerer alt for å redde liv. Dette ble en konkurrangse for
-               oss på grafisk design.
-                Det ble også en mulighet og erfaring til å få samarbeidet med reele kunder. Dette designet ble valgt som vinneren og finnes nå i
-                bokhyllene.
-                Boken handler om en lege som ikke bare lærer kvinner det å være jordmor, men også om kvinners rettigheter
-                i det skjulte. 
+                <p class="secondintro p">I 2015 ønsket Aschehoug forlag å redesignet omslaget på boken til Kristin
+                    Solberg. "Jordmødrene i Afghanistan" Historien om kvinnene som risikerer alt for å redde liv. Dette
+                    ble en konkurrangse for oss på grafisk design. Det ble også en
+                    mulighet og erfaring til å få samarbeidet med reele kunder. Dette designet ble valgt som vinneren og
+                    finnes nå i bokhyllene. Boken handler om en lege som ikke bare lærer kvinner det å være jordmor, men
+                    også om kvinners rettigheter
+                    i det skjulte.
                 </p>
             </div>
         </div>
@@ -104,18 +86,19 @@
             </div>
         </div>
 
-            
+
         <div id="container3" data-color="violet">
             <div id="content3">
                 <div class="consept">
-        <h1 class="stylingp"> Skjult bak en blå burka har forfatteren Kristin Solberg reist til jordmorskolen for å skrive
-            historiene om de afghanske kvinnene som
-            risikerer alt for å redde liv. Dokumentaren er sterk, gripende og tankevekkende,
-            og trengte dermed et omslag som representere og formidlet disse verdiordene. Riften i øyet symboliserer faren og terroren disse 
-            kvinnene utsetter seg for ved å ta til seg ny kunnskap noe som førte til både vold og trussler. Riften skaper også et blikkfang. Det er mange bøker i hyllene og de trenger å skille seg ut
-            for å gjøre brukeren nyskjerig.
-            Den blå fargen symboliserer burkaen Kristin måtte gjemme seg bak når hun var i Afghanistan, og går igjen på det meste av
-            omslaget.
+                    <h1 class="stylingp"> Skjult bak en blå burka har forfatteren Kristin Solberg reist til
+                        jordmorskolen for å skrive historiene om de afghanske kvinnene som risikerer alt for å redde
+                        liv. Dokumentaren er sterk, gripende og tankevekkende, og trengte dermed
+                        et omslag som representere og formidlet disse verdiordene. Riften i øyet symboliserer faren og
+                        terroren disse kvinnene utsetter seg for ved å ta til seg ny kunnskap noe som førte til både
+                        vold og trussler. Riften skaper også et
+                        blikkfang. Det er mange bøker i hyllene og de trenger å skille seg ut for å gjøre brukeren
+                        nyskjerig. Den blå fargen symboliserer burkaen Kristin måtte gjemme seg bak når hun var i
+                        Afghanistan, og går igjen på det meste av omslaget.
                     </h1>
                 </div>
             </div>
@@ -131,17 +114,16 @@
 
         <div class="thirdintrobox">
             <div class="thirdintro">
-            <p class="thirdintro p fade"> På en skole på landsbygda i Afghanistan lærer en lege landsbyjentene å redde liv, mens
-            jenteskoler blir bombet og brent rundt dem.
-            Doktor Khadija reiser den farefulle veien til en skole på et sted som syder av Taliban. Skolen utdanner jordmødre,
-            men doktor Khadija lærer også landsbyjentene om fred og kvinnerettigheter. Hun vet at arbeidet kan koste henne
-            livet, men en gammel sorg fra en tidligere krig driver henne fremover.
-            I denne boken følger Kristin Solberg doktor Khadija og hennes elever i to turbulente år av deres liv og gir et
-            sjeldent bilde av mennesker klemt mellom alle sider i en krig - i det som regnes som verdens verste land å leve i
-            for kvinner. </p>
+                <p class="thirdintro p fade"> På en skole på landsbygda i Afghanistan lærer en lege landsbyjentene å
+                    redde liv, mens jenteskoler blir bombet og brent rundt dem. Doktor Khadija reiser den farefulle
+                    veien til en skole på et sted som syder av Taliban. Skolen utdanner
+                    jordmødre, men doktor Khadija lærer også landsbyjentene om fred og kvinnerettigheter. Hun vet at
+                    arbeidet kan koste henne livet, men en gammel sorg fra en tidligere krig driver henne fremover. I
+                    denne boken følger Kristin Solberg doktor
+                    Khadija og hennes elever i to turbulente år av deres liv og gir et sjeldent bilde av mennesker klemt
+                    mellom alle sider i en krig - i det som regnes som verdens verste land å leve i for kvinner. </p>
             </div>
         </div>
-
 
         <div id="container5" data-color="violet">
             <div id="content5"></div>
@@ -149,7 +131,8 @@
 
         <div id="container6" data-color="violet">
             <div id="content6">
-                    <a href="https://www.ark.no/boker/Kristin-Solberg-Jordmodrene-i-Afghanistan-9788203296284?gclid=CjwKCAiA767jBRBqEiwAGdAOrxoGt8NjJKuCW677-wTzq-qN2MMPZDQ67--l7TTBQDbdPPXkOy8MghoCX2sQAvD_BwE&gclsrc=aw.ds">
+                <a
+                    href="https://www.ark.no/boker/Kristin-Solberg-Jordmodrene-i-Afghanistan-9788203296284?gclid=CjwKCAiA767jBRBqEiwAGdAOrxoGt8NjJKuCW677-wTzq-qN2MMPZDQ67--l7TTBQDbdPPXkOy8MghoCX2sQAvD_BwE&gclsrc=aw.ds">
                     <h1 class="visit fade">dra til nettbutikk</h1>
                 </a>
             </div>
@@ -165,4 +148,5 @@
 
     </main>
 </body>
+
 </html>

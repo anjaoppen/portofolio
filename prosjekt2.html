@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Skogholt</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
     <!-- hente inn jquery 1.7.1 bibliotek -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.7.1.js"></script>
 
     <!-- clean up and rydd opp i forskjeller mellom nettlesere -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
@@ -21,52 +21,29 @@
     <link rel="stylesheet" type="text/css" href="css/prosjekt2.css">
 
     <!-- jquery koden -->
-    <script type="text/javascript" src="fadeunder.js"></script>
+    <script src="fadeunder.js"></script>
 
     <!-- jquery koden -->
-    <script type="text/javascript" src="menu.js"></script>
+    <script src="menu.js"></script>
 
 
 </head>
 
 <body>
-
     <main>
-        <nav role="navigation">
+        <nav>
             <div id="menuToggle">
-                <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
+          
                 <input type="checkbox" />
 
-                <!--
-        Some spans to act as a hamburger.
-        
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
                 <span></span>
                 <span></span>
                 <span></span>
 
-                <!--
-        Too bad the menu has to be 
-        inside of the button
-        but hey, it's pure CSS magic.
-        -->
                 <ul id="menu">
-                    <a href="index.html">
-                        <li>Hjem</li>
-                    </a>
-                    <a href="#">
-                        <li>Om</li>
-                    </a>
-            
-                    <a href="#">
-                        <li>Kontakt</li>
-                    </a>
-
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#">Om</a></li>
+                    <li><a href="#">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
@@ -81,23 +58,19 @@
 
 
         <div class="gridbox">
-        <div class="intro">
-            <h3><span>Digitalt magasin </span><br> Skogholt</h3>
-            <h3><span>Rolle </span><br> Front end</h3>
-            <h3><span>Dato</span> <br> 2018</h3>
-        </div>
+            <div class="intro">
+                <h3><span>Digitalt magasin </span><br> Skogholt</h3>
+                <h3><span>Rolle </span><br> Front end</h3>
+                <h3><span>Dato</span> <br> 2018</h3>
+            </div>
         </div>
 
         <div class="seconintrobox">
-        <div class="secondintro">
-            <p class="secondintro p">"Skogholt er et digitalt inspirasjonsmagasin hvor man går tilbake til de gamle verdiene ved å
-                 være ute å benytte
-                seg av det skogen har å gi. I form av naturesusjer,
-                jakt, fiske og avkobling fra hverdagen.
-                Det koster ikke å være i skogen. Det skal være inspererene og motiverende å komme seg ut i skogen i nærområde og 
-                man trenger ikke å reie så langt for å skjenne på frihetsfølsenen."</p>
+            <div class="secondintro">
+                <p class="secondintro p">"Skogholt er et digitalt inspirasjonsmagasin hvor man går tilbake til de gamle verdiene ved å være ute å benytte seg av det skogen har å gi. I form av naturesusjer, jakt, fiske og avkobling fra hverdagen. Det koster ikke å være i skogen.
+                    Det skal være inspererene og motiverende å komme seg ut i skogen i nærområde og man trenger ikke å reie så langt for å skjenne på frihetsfølsenen."</p>
+            </div>
         </div>
-    </div>
 
         <div id="container2" data-color="violet">
             <div id="content2">
@@ -106,30 +79,27 @@
 
         <div id="container3" data-color="violet">
             <div id="content3" class="fade">
-                    <div class="consept">
-                    <h1 class="stylingp">“Ta deg tid, dra tilbake til det gamle 
-                        og skap en god opplevelse”</h1>
-                    </div>
-                </div>          
+                <div class="consept">
+                    <h1 class="stylingp">“Ta deg tid, dra tilbake til det gamle og skap en god opplevelse”</h1>
+                </div>
             </div>
-                
+        </div>
 
-        
+
+
         <div id="container4" data-color="violet">
             <div id="content4">
             </div>
         </div>
 
 
-<div class="thirdintrobox">
-    <div class="thirdintro">
-        <p class="thirdintro p fade">Opplev det skogen har å by på. Det er ikke nødvendig 
-            med masse dyrt utstyr for at du skal kunne slappe, og man skal ikke trenge å reise langt bort for å finne roen.
-            I naturen koster det ikke noe, det er gratis, og av at du tar i bruk nærområdene sparer du både penger og miljøet.
-            Vi skal fange brukerens oppmerksomhet og gjøre dem oppmerksomme ved bruk av flotte artikler med bilder, videoer og tips som gjør at de
-            nesten kan lukte røyken fra bålet og føle at de allerede er i skogen.</p>
+        <div class="thirdintrobox">
+            <div class="thirdintro">
+                <p class="thirdintro p fade">Opplev det skogen har å by på. Det er ikke nødvendig med masse dyrt utstyr for at du skal kunne slappe, og man skal ikke trenge å reise langt bort for å finne roen. I naturen koster det ikke noe, det er gratis, og av at du tar i bruk
+                    nærområdene sparer du både penger og miljøet. Vi skal fange brukerens oppmerksomhet og gjøre dem oppmerksomme ved bruk av flotte artikler med bilder, videoer og tips som gjør at de nesten kan lukte røyken fra bålet og føle at de allerede
+                    er i skogen.</p>
+            </div>
         </div>
-</div>
 
 
         <div id="container5" data-color="violet">
@@ -139,19 +109,19 @@
         <div id="container6" data-color="violet">
             <div id="content6">
                 <a href="https://syvkristine.github.io/Skogholt-Magasin/">
-                <h1 class="visit fade">dra til nettside</h1>
-            </a>
+                    <h1 class="visit fade">dra til nettside</h1>
+                </a>
+            </div>
         </div>
-    </div>
 
-<div id="container7" data-color="violet">
-    <div id="content7" class="fade">
-        <a href="prosjekt3.html">
-        <h1 class="next">De forglemte</h1>
-        </a>
-    </div>
-</div>
+        <div id="container7" data-color="violet">
+            <div id="content7" class="fade">
+                <a href="prosjekt3.html">
+                    <h1 class="next">De forglemte</h1>
+                </a>
+            </div>
+        </div>
 
-</main>
+    </main>
 </body>
 </html>
