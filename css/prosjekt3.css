@@ -6,9 +6,8 @@ body {
 
     transition: background-color 1s ease;
     background-color: white;
-
     font-size: 22px;
-    font-family: "Medio", sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
 
@@ -23,6 +22,7 @@ main {
 #tittel1 {
 
     text-transform: uppercase;
+    font-family: 'Lora',serif;
 }
 
 #container1 {
@@ -77,6 +77,9 @@ p {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Lora',serif;
+}
 
 
 .gridbox {
@@ -375,6 +378,7 @@ p {
     color: grey;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: 'Lora',serif;
 }
 
 #container7 {
@@ -405,6 +409,7 @@ p {
     color: white;
     font-size: 40px;
     text-transform: uppercase;
+    font-family: 'Lora',serif;
 }
 
 /* ipad pro*/
