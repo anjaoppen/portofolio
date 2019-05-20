@@ -55,11 +55,13 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-weight: 100;
     color: white;
     text-align: center;
+    font-family: 'Playfair Display',serif;
     cursor: pointer; 
+    
 }
 
 
