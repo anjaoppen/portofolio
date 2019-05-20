@@ -10,6 +10,7 @@ body {
     font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
+  
 
 
 }
@@ -62,6 +63,7 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
+    font-family: 'Lora',serif;
 }
 
 
