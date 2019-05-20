@@ -7,7 +7,7 @@ body {
     transition: background-color 1s ease;
     background-color: rgb(211, 219, 223);
     font-size: 22px;
-    font-family: 'Playfair Display',serif;
+    font-family: 'Lora',serif;
     font-weight: 100;
     margin: 0;
 }
@@ -55,11 +55,11 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 7px;
     font-weight: 100;
     color: white;
     text-align: center;
-    font-family: 'Playfair Display',serif;
+    font-family:'Lora',serif;
     cursor: pointer; 
     
 }
@@ -69,7 +69,7 @@ p {
     position: absolute;
     top: 56%;
     left: 50%;
-    font-family: "Avenir Next";
+    font-family: 'Avenir Next';
     font-weight: 100;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
