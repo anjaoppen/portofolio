@@ -21,7 +21,7 @@ main {
 }
 
 #tittel1{
-    
+    font-family: 'Lora',serif;
     text-transform: uppercase;
 }
 
@@ -62,7 +62,7 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
-     font-family: 'Lora',serif;
+    font-family: 'Lora',serif;
 }
 
 
