@@ -86,7 +86,7 @@ p {
 
 }
 
-h3{
+h3 {
     font-family: 'Lora',serif;
 
 }
@@ -377,6 +377,8 @@ h3{
     color: grey;
     font-size: 40px;
     text-transform: uppercase;
+     font-family: 'Lora',serif;
+    
 }
 
 #container7 {
@@ -407,6 +409,7 @@ h3{
     color: white;
     font-size: 40px;
     text-transform: uppercase;
+     font-family: 'Lora',serif;
 }
 
 /* ipad */
