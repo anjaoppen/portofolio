@@ -215,7 +215,6 @@ p {
 }
 
 .movieintrobox {
-    width: 100vw;
     height: 250px;
     padding: 20px;
     position: relative;
@@ -424,6 +423,10 @@ p {
         height: 750px;
     }
 
+    .seconintrobox {
+        height: 383px;
+    }
+
     #container3 {
         margin-top: 5px;
         margin-bottom: 30px;
@@ -520,13 +523,13 @@ p {
     }
 
     .secondintro {
-        top: 40%;
+        top: 50%;
         width: 75%;
     }
 
     .seconintrobox {
-        height: 300px;
-        margin-top: 30px;
+        height: 600px;
+        margin-top: 20px;
     }
 
     #container2 {
@@ -535,6 +538,7 @@ p {
 
     }
 
+  
     #container3 {
 
         height: 300px;
@@ -560,6 +564,11 @@ p {
         text-align: left;
 
 
+    }
+
+    .movieintro{
+        top: 35%;
+        width: 80%;
     }
 
 
