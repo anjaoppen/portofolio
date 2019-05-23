@@ -6,13 +6,10 @@ body {
 
     transition: background-color 1s ease;
     background-color: white;
-
     font-size: 22px;
     font-family: 'Lora',serif;
     font-weight: 100;
     margin: 0;
-
-
 }
 
 main {
@@ -21,7 +18,6 @@ main {
 }
 
 #tittel1 {
-
     text-transform: uppercase;
     font-family: 'Lora',serif;
 }
@@ -30,13 +26,9 @@ main {
     width: 100vw;
     height: 80vh;
     padding: 20px;
-    /*background-color:rgb(211, 219, 223);*/
     text-align: center;
     position: relative;
     overflow: hidden;
-
-
-
 }
 
 #content1 {
@@ -47,13 +39,9 @@ main {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
-
 }
 
 h1 {
-    /*background-color: blue;*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -87,7 +75,6 @@ h3 {
     margin-top: 130px;
     height: 100px;
     width: 100vw;
-
 }
 
 /*introduksjons bokser section 1 */
@@ -105,9 +92,6 @@ h3 {
     text-align: left;
     line-height: 35px;
     padding-left: 20%;
-
-
-
 }
 
 .intro span {
@@ -115,13 +99,10 @@ h3 {
     font-family: "Avenir Next";
     text-transform: uppercase;
     font-weight: 100;
-
-
-
 }
 
 .seconintrobox {
-
+    
     width: 100vw;
     height: 250px;
     padding: 20px;
@@ -134,13 +115,10 @@ h3 {
 
     top: 30%;
     width: 60%;
-
-
-
 }
 
 .secondintro p {
-
+    
     letter-spacing: 0px;
     text-align: left;
     font-size: 14px;
@@ -148,8 +126,6 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
-
 }
 
 
@@ -164,9 +140,6 @@ h3 {
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content2 {
@@ -185,8 +158,6 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-
-
 }
 
 .stylingp {
@@ -199,9 +170,6 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 30px;
-
-
-
 }
 
 #container3 {
@@ -209,7 +177,6 @@ h3 {
     width: 100%;
     height: 600px;
     padding: 20px;
-    /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
     color: white;
@@ -224,7 +191,6 @@ h3 {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
 }
 
 
@@ -232,14 +198,10 @@ h3 {
 
     width: 100vw;
     height: 600px;
-    /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content4 {
@@ -259,18 +221,14 @@ h3 {
     padding: 20px;
     position: relative;
     overflow: hidden;
-
-
 }
 
 .thirdintro {
     top: 65%;
     width: 50%;
-
 }
 
 .thirdintro p {
-
     letter-spacing: 0px;
     text-align: center;
     font-size: 14px;
@@ -278,21 +236,16 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
 }
 
 
 #container5 {
     width: 100vw;
     height: 600px;
-    /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content5 {
@@ -306,27 +259,19 @@ h3 {
 }
 
 
-
-
-
 #container6 {
 
     width: 100vw;
     height: 50vh;
-    /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
     overflow: hidden;
-
-
-
 }
 
 #content6 {
     width: 100%;
     height: 100%;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
 }
 
 .visit {
@@ -340,13 +285,10 @@ h3 {
 
     width: 100vw;
     height: 50vh;
-    /*background-color:#0E0805;*/
     text-align: center;
     position: relative;
     overflow: hidden;
     padding: 20px;
-
-
 }
 
 #content7 {
@@ -357,7 +299,6 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .next {
@@ -451,7 +392,6 @@ h3 {
         height: 500px;
         transition-duration: 1s;
         transition-delay: 1s;
-
     }
 
     #container5 {
@@ -468,11 +408,9 @@ h3 {
         margin-top: 50px;
         height: 100px;
         width: 100vw;
-
     }
 
     .intro span {
-
         font-size: 10px
     }
 
@@ -487,27 +425,21 @@ h3 {
     }
 
     #container2 {
-
-        height: 300px;
-
+    height: 300px;
     }
 
     #container3 {
-
-        height: 900px;
-
+    height: 900px;
     }
 
     #content3 {
         width: 100%;
         height: 100%;
         background-position: right;
-
     }
 
-    .stylingp{
+    .stylingp {
         width: 80%;
-
     }
 
       
@@ -521,15 +453,12 @@ h3 {
 
         top: 60%;
         text-align: left;
-
-
     }
 
 
     #container4 {
 
         height: 300px;
-
     }
 
     #container5 {
@@ -541,13 +470,11 @@ h3 {
     #container6 {
 
         height: 200px;
-
     }
 
     #container7 {
 
         height: 300px;
-
     }
 }
 
