@@ -3,11 +3,10 @@
 }
 
 body {
-
     transition: background-color 1s ease;
     background-color: white;
     font-size: 22px;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
 }
@@ -18,22 +17,17 @@ main {
 }
 
 #tittel1 {
-
     text-transform: uppercase;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
 
 #container1 {
     width: 100vw;
     height: 80vh;
     padding: 20px;
-    /*background-color:rgb(211, 219, 223);*/
     text-align: center;
     position: relative;
     overflow: hidden;
-
-
-
 }
 
 #content1 {
@@ -44,9 +38,6 @@ main {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
-
 }
 
 h1 {
@@ -60,9 +51,8 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
-
 
 p {
     position: absolute;
@@ -76,23 +66,20 @@ p {
     text-align: center;
 }
 
-
-
 .gridbox {
     margin-top: 130px;
     height: 100px;
     width: 100vw;
-
 }
 
 h3 {
-    font-family: 'Lora',serif;
-
+    font-family: 'Lora', serif;
 }
 
-/*introduksjons bokser section 1 */
-.intro {
 
+/*introduksjons bokser section 1 */
+
+.intro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
@@ -105,42 +92,28 @@ h3 {
     text-align: left;
     line-height: 35px;
     padding-left: 20%;
-
-
-
 }
 
 .intro span {
-
     font-family: "Avenir Next";
     text-transform: uppercase;
     font-weight: 100;
-
-
-
 }
 
 .seconintrobox {
-
     width: 100vw;
     height: 350px;
     padding: 20px;
     position: relative;
     overflow: hidden;
-
 }
 
 .secondintro {
-
     top: 50%;
     width: 60%;
-
-
-
 }
 
 .secondintro p {
-
     letter-spacing: 0px;
     text-align: left;
     font-size: 14px;
@@ -148,11 +121,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
-
 }
-
-
 
 #container2 {
     padding: 20px;
@@ -162,13 +131,9 @@ h3 {
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content2 {
-    
     width: 100%;
     height: 100%;
     background-image: url(../img/reklame\ copy\ 2.png);
@@ -185,7 +150,6 @@ h3 {
     height: 200px;
     position: absolute;
     border-top: 2px solid orange;
-
 }
 
 .stylingp {
@@ -199,12 +163,9 @@ h3 {
     font-weight: 100;
     line-height: 30px;
     font-style: italic;
-
-
 }
 
 #tittel2 {
-
     letter-spacing: 2px;
     text-align: center;
     font-size: 20px;
@@ -214,7 +175,6 @@ h3 {
     line-height: 25px;
     text-transform: uppercase;
     padding-bottom: 20px;
-
 }
 
 .movieintrobox {
@@ -222,59 +182,42 @@ h3 {
     padding: 20px;
     position: relative;
     overflow: hidden;
-
 }
 
 .movieintro {
-
     top: 30%;
     width: 60%;
-
 }
 
-
-
 .movieintro p {
-
     letter-spacing: 0px;
     text-align: left;
     font-size: 14px;
     color: grey;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
 }
 
 .containmovie {
-
     padding: 20px;
     text-align: center;
     margin-bottom: 120px;
     margin-top: 30px;
 }
 
-
-
 #videoElement {
-
     width: 80%;
     height: 100%;
-
 }
 
-
 #container4 {
-
     width: 100vw;
     height: 800px;
     text-align: center;
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content4 {
@@ -286,7 +229,6 @@ h3 {
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
-
 
 .thirdintrobox {
     width: 100vw;
@@ -302,7 +244,6 @@ h3 {
 }
 
 .thirdintro p {
-
     letter-spacing: 0px;
     text-align: center;
     font-size: 15px;
@@ -310,9 +251,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
 }
-
 
 #container5 {
     margin-top: 40px;
@@ -323,9 +262,6 @@ h3 {
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content5 {
@@ -338,9 +274,7 @@ h3 {
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 #container6 {
-
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -352,27 +286,22 @@ h3 {
     width: 100%;
     height: 100%;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
 }
 
 .visit {
     color: grey;
     font-size: 40px;
     text-transform: uppercase;
-     font-family: 'Lora',serif;
-    
+    font-family: 'Lora', serif;
 }
 
 #container7 {
-
     width: 100vw;
     height: 50vh;
     text-align: center;
     position: relative;
     overflow: hidden;
     padding: 20px;
-
-
 }
 
 #content7 {
@@ -383,21 +312,19 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .next {
     color: white;
     font-size: 40px;
     text-transform: uppercase;
-     font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
+
 
 /* ipad */
 
 @media only screen and (max-width: 1024px) {
-
-
     #container1 {
         margin-top: 5px;
         margin-bottom: 30px;
@@ -430,26 +357,22 @@ h3 {
         font-size: 14px;
     }
 
-
     .thirdintro {
         top: 50%;
         width: 75%;
-
     }
 
     .thirdintrobox {
         margin-bottom: 20px;
-
     }
 
-     .movieintrobox {
-         height: 300px;
-     }
+    .movieintrobox {
+        height: 300px;
+    }
 
-     #videoElement {
-
-         width: 100%;
-     }
+    #videoElement {
+        width: 100%;
+    }
 
     #container4 {
         margin-top: 5px;
@@ -480,13 +403,14 @@ h3 {
     }
 }
 
+
 /*bilder til ipad */
+
 @media only screen and (max-width: 770px) {
     #container2 {
         height: 500px;
         transition-duration: 1s;
         transition-delay: 1s;
-
     }
 
     #container5 {
@@ -496,18 +420,17 @@ h3 {
     }
 }
 
-/*mobil*/
-@media only screen and (max-width: 650px) {
 
+/*mobil*/
+
+@media only screen and (max-width: 650px) {
     .gridbox {
         margin-top: 50px;
         height: 100px;
         width: 100vw;
-
     }
 
     .intro span {
-
         font-size: 10px
     }
 
@@ -522,72 +445,50 @@ h3 {
     }
 
     #container2 {
-
         height: 300px;
-
     }
 
-  
     #container3 {
-
         height: 300px;
-
     }
 
     #content3 {
         width: 110%;
         height: 100%;
         background-position: right;
-
-
     }
 
     .thirdintrobox {
         height: 400px;
-
     }
 
     .thirdintro p {
-
-
         text-align: left;
-
-
     }
 
-    .movieintro{
+    .movieintro {
         top: 35%;
         width: 80%;
     }
 
-
     #container4 {
-
         height: 300px;
-
     }
 
     #container5 {
-
         height: 300px;
         margin-bottom: 10px;
     }
 
     #container6 {
-
         height: 200px;
-
     }
 
     #container7 {
-
         height: 300px;
-
     }
 
     .consept {
-
         display: none;
-
     }
 }

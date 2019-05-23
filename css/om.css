@@ -3,7 +3,6 @@
 }
 
 body {
-
     transition: background-color 1s ease;
     background-color: rgb(211, 219, 223);
     font-size: 22px;
@@ -17,7 +16,6 @@ main {
     padding: 0;
 }
 
-
 #container1 {
     width: 100vw;
     height: 100vh;
@@ -28,7 +26,6 @@ main {
 }
 
 h1 {
-    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,9 +35,7 @@ h1 {
     font-weight: 100;
     color: white;
     text-align: center;
-    
 }
-
 
 p {
     position: absolute;
@@ -55,8 +50,8 @@ p {
 }
 
 .secondintro {
-        top: 50%;
-        width: 50%;
+    top: 50%;
+    width: 50%;
 }
 
 #content1 {
@@ -69,3 +64,4 @@ p {
     background-position: top;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
+

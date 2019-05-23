@@ -3,15 +3,12 @@
 }
 
 body {
-
     transition: background-color 1s ease;
     background-color: white;
     font-size: 22px;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
-
-
 }
 
 main {
@@ -19,8 +16,8 @@ main {
     padding: 0;
 }
 
-#tittel1{
-    font-family: 'Lora',serif;
+#tittel1 {
+    font-family: 'Lora', serif;
     text-transform: uppercase;
 }
 
@@ -31,9 +28,6 @@ main {
     text-align: center;
     position: relative;
     overflow: hidden;
-
-
-
 }
 
 #content1 {
@@ -44,13 +38,9 @@ main {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
-
 }
 
 h1 {
-    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,9 +50,8 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
-
 
 p {
     position: absolute;
@@ -80,18 +69,13 @@ h3 {
     font-family: 'Lora', serif;
 }
 
-
-
 .gridbox {
-margin-top: 130px;
-height: 100px;
-width: 100vw;
-
+    margin-top: 130px;
+    height: 100px;
+    width: 100vw;
 }
 
-
 .intro {
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
@@ -104,48 +88,37 @@ width: 100vw;
     text-align: left;
     line-height: 35px;
     padding-left: 20%;
-    font-family: 'Lora',serif;
-    
-    
-
+    font-family: 'Lora', serif;
 }
 
-.intro span{
-
+.intro span {
     font-family: "Avenir Next";
     text-transform: uppercase;
     font-weight: 100;
-    
-    
-
 }
-.seconintrobox{
-    
-     width: 100vw;
-     height: 250px;
-     padding: 20px;
-     position: relative;
-     overflow: hidden;
-     
+
+.seconintrobox {
+    width: 100vw;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .secondintro {
-    top:30%;
-    width: 60%; 
+    top: 30%;
+    width: 60%;
 }
 
 .secondintro p {
-
-      letter-spacing: 0px;
-      text-align: left;
-      font-size: 14px;
-      color: grey;
-      font-family: 'Lora',serif;
-      font-weight: 100;
-      line-height: 25px;    
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    line-height: 25px;
 }
-
-
 
 #container2 {
     padding: 20px;
@@ -156,13 +129,10 @@ width: 100vw;
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content2 {
-    padding-top:20px; 
+    padding-top: 20px;
     width: 100%;
     height: 100%;
     background-image: url(../img/skogholt.whitebg\ copy.png);
@@ -173,23 +143,22 @@ width: 100vw;
 }
 
 .consept {
-top:70%;
-left: 6.5%;
-width: 200px;
-height: 200px;
-position: absolute;
-border-top:2px solid orange;
-
+    top: 70%;
+    left: 6.5%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-top: 2px solid orange;
 }
 
 .stylingp {
     text-align: left;
     font-size: 16px;
     letter-spacing: 0px;
-    top:20%;
+    top: 20%;
     width: 100%;
-    color:grey;
-    font-family: 'Lora',serif;
+    color: grey;
+    font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 30px;
     font-style: italic;
@@ -207,7 +176,6 @@ border-top:2px solid orange;
     overflow: hidden;
 }
 
-
 #content3 {
     width: 90%;
     height: 90%;
@@ -216,21 +184,15 @@ border-top:2px solid orange;
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-    
 }
 
-
 #container4 {
-
     width: 100vw;
     height: 100vh;
     text-align: center;
     position: relative;
     color: white;
     overflow: hidden;
-
-
-
 }
 
 #content4 {
@@ -243,7 +205,6 @@ border-top:2px solid orange;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 .thirdintrobox {
     width: 100vw;
     height: 300px;
@@ -253,22 +214,19 @@ border-top:2px solid orange;
 }
 
 .thirdintro {
- top:50%;
- width: 50%;
- }
-
-.thirdintro p {
-
-         letter-spacing: 0px;
-         text-align: center;
-         font-size: 14px;
-         color: grey;
-         font-family: 'Lora',serif;
-         font-weight: 100;
-         line-height: 25px;
-
+    top: 50%;
+    width: 50%;
 }
 
+.thirdintro p {
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    line-height: 25px;
+}
 
 #container5 {
     margin-top: 40px;
@@ -292,12 +250,7 @@ border-top:2px solid orange;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
-
-
-
 #container6 {
-
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -312,14 +265,13 @@ border-top:2px solid orange;
 }
 
 .visit {
-color: grey;
-font-size: 40px;
-text-transform: uppercase;
- font-family: 'Lora',serif;
+    color: grey;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
 }
 
 #container7 {
-
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -333,23 +285,22 @@ text-transform: uppercase;
     height: 100%;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
     background-image: url(../img/header2\ copy.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .next {
-    color:white;
+    color: white;
     font-size: 40px;
     text-transform: uppercase;
-     font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
 
- /* ipad */
+
+/* ipad */
 
 @media only screen and (max-width: 1024px) {
-
-
     #container1 {
         margin-top: 5px;
         margin-bottom: 30px;
@@ -360,9 +311,9 @@ text-transform: uppercase;
         transition-delay: 1s;
     }
 
-    #container2{ 
-       height: 750px;
-       }
+    #container2 {
+        height: 750px;
+    }
 
     #container3 {
         margin-top: 5px;
@@ -374,151 +325,129 @@ text-transform: uppercase;
         transition-delay: 1s;
     }
 
-    .stylingp{
+    .stylingp {
         font-size: 14px;
     }
 
-  
     .thirdintro {
         top: 50%;
         width: 75%;
-
     }
 
     .thirdintrobox {
         margin-bottom: 20px;
-
     }
 
-#container4{
-   margin-top: 5px;
-   width: 100%;
-   height: 500px;
-   transition-delay: 1s;
-   transition-delay: 1s;
+    #container4 {
+        margin-top: 5px;
+        width: 100%;
+        height: 500px;
+        transition-delay: 1s;
+        transition-delay: 1s;
+    }
+
+    #container5 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 700px;
+        padding: 20px;
+        transition-delay: 1s;
+        transition-delay: 1s;
+    }
+
+    #container6 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 250px;
+        padding: 20px;
+        transition-delay: 1s;
+        transition-delay: 1s;
+    }
 }
 
-#container5 {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 700px;
-    padding: 20px;
-    transition-delay: 1s;
-    transition-delay: 1s;
-}
 
-#container6 {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 250px;
-    padding: 20px;
-    transition-delay: 1s;
-    transition-delay: 1s;
-}
-}
 /*bilder til ipad */
+
 @media only screen and (max-width: 770px) {
-#container2 {
-    height: 500px;
-    transition-duration: 1s;
-    transition-delay: 1s;
+    #container2 {
+        height: 500px;
+        transition-duration: 1s;
+        transition-delay: 1s;
+    }
 
+    #container5 {
+        height: 500px;
+        transition-duration: 1s;
+        transition-delay: 1s;
+    }
 }
 
-#container5 {
-    height: 500px;
-    transition-duration: 1s;
-    transition-delay: 1s;
-}
-}
 
 /*mobil*/
-@media only screen and (max-width: 650px) {
 
+@media only screen and (max-width: 650px) {
     .gridbox {
         margin-top: 50px;
         height: 100px;
         width: 100vw;
-
     }
 
-.intro span {
+    .intro span {
+        font-size: 10px
+    }
 
-    font-size: 10px
-}
+    .secondintro {
+        top: 40%;
+        width: 75%;
+    }
 
-.secondintro {
-    top: 40%;
-    width: 75%;
-}
+    .seconintrobox {
+        height: 300px;
+        margin-top: 30px;
+    }
 
-.seconintrobox{
-height: 300px;
-margin-top: 30px;
-}
+    #container2 {
+        height: 300px;
+    }
 
-#container2{
+    #container3 {
+        height: 300px;
+    }
 
-height: 300px;
+    #content3 {
+        width: 110%;
+        height: 100%;
+        background-position: right;
+    }
 
-}
+    .thirdintrobox {
+        height: 400px;
+    }
 
-#container3 {
+    .thirdintro p {
+        text-align: left;
+    }
 
-    height: 300px;
+    #container4 {
+        height: 300px;
+    }
 
-}
+    #container5 {
+        height: 300px;
+        margin-bottom: 10px;
+    }
 
-#content3 {
-    width: 110%;
-    height: 100%;
-    background-position: right;
-    
-    
-}
+    #container6 {
+        height: 200px;
+    }
 
-.thirdintrobox {
-    height: 400px;
+    #container7 {
+        height: 300px;
+    }
 
-}
-.thirdintro p {
-
-    
-    text-align: left;
-    
-   
-}
-
-
-#container4{
-
-    height: 300px;
-
-}
-
-#container5 {
-
-    height: 300px;
-    margin-bottom: 10px;
-}
-
-#container6 {
-
-    height: 200px;
-
-}
-
-#container7{
-
-    height: 300px;
-
-}
-
-.consept {
-
-    display: none;
-
-}
+    .consept {
+        display: none;
+    }
 }

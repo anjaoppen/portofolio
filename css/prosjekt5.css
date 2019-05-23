@@ -3,10 +3,9 @@
 }
 
 body {
-
     transition: background-color 1s ease;
     background-color: white;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
 }
@@ -17,7 +16,6 @@ main {
 }
 
 #tittel1 {
-
     text-transform: uppercase;
 }
 
@@ -37,12 +35,11 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-     background-position:center;
+    background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
 h1 {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,9 +49,8 @@ h1 {
     color: white;
     text-align: center;
     cursor: pointer;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
-
 
 p {
     position: absolute;
@@ -69,19 +65,19 @@ p {
 }
 
 h3 {
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
 
 .gridbox {
     margin-top: 130px;
     height: 100px;
     width: 100vw;
-
 }
 
-/*introduksjons bokser section 1 */
-.intro {
 
+/*introduksjons bokser section 1 */
+
+.intro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
@@ -97,7 +93,6 @@ h3 {
 }
 
 .intro span {
-
     font-family: "Avenir Next";
     text-transform: uppercase;
     font-weight: 100;
@@ -117,7 +112,6 @@ h3 {
 }
 
 .secondintro p {
-    
     letter-spacing: 0px;
     text-align: left;
     font-size: 14px;
@@ -126,8 +120,6 @@ h3 {
     font-weight: 100;
     line-height: 25px;
 }
-
-
 
 #container2 {
     padding: 20px;
@@ -150,7 +142,6 @@ h3 {
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
-
 
 .consept {
     top: 15%;
@@ -181,7 +172,6 @@ h3 {
     overflow: hidden;
 }
 
-
 #content3 {
     width: 90%;
     height: 90%;
@@ -191,9 +181,7 @@ h3 {
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 #container4 {
-
     width: 100vw;
     height: 100vh;
     /*background-color:#0E0805;*/
@@ -214,7 +202,6 @@ h3 {
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 .thirdintrobox {
     width: 100vw;
     height: 350px;
@@ -229,7 +216,6 @@ h3 {
 }
 
 .thirdintro p {
-
     letter-spacing: 0px;
     text-align: center;
     font-size: 14px;
@@ -237,9 +223,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 100;
     line-height: 25px;
-
 }
-
 
 #container5 {
     margin-top: 40px;
@@ -263,7 +247,6 @@ h3 {
 }
 
 #container6 {
-
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -281,11 +264,10 @@ h3 {
     color: grey;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
 
 #container7 {
-    
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -308,14 +290,13 @@ h3 {
     color: white;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
 }
+
 
 /* ipad */
 
 @media only screen and (max-width: 1024px) {
-
-
     #container1 {
         margin-top: 5px;
         margin-bottom: 30px;
@@ -330,10 +311,10 @@ h3 {
         height: 750px;
     }
 
-     .seconintrobox {
-         height: 300px;
-         margin-top: 30px;
-     }
+    .seconintrobox {
+        height: 300px;
+        margin-top: 30px;
+    }
 
     #container3 {
         margin-top: 5px;
@@ -348,7 +329,6 @@ h3 {
     .stylingp {
         font-size: 14px;
     }
-
 
     .thirdintro {
         top: 50%;
@@ -388,7 +368,9 @@ h3 {
     }
 }
 
+
 /*bilder til ipad */
+
 @media only screen and (max-width: 770px) {
     #container2 {
         height: 500px;
@@ -403,18 +385,18 @@ h3 {
     }
 }
 
+
 /*mobil*/
+
 @media only screen and (max-width: 650px) {
-
     .gridbox {
-    margin-top: 50px;
-    height: 100px;
-    width: 100vw;
-
+        margin-top: 50px;
+        height: 100px;
+        width: 100vw;
     }
 
     .intro span {
-    font-size: 10px
+        font-size: 10px
     }
 
     .secondintro {
@@ -428,13 +410,11 @@ h3 {
     }
 
     #container2 {
-    height: 300px;
-
+        height: 300px;
     }
 
     #container3 {
-    height: 600px;
-
+        height: 600px;
     }
 
     #content3 {
@@ -442,7 +422,7 @@ h3 {
         height: 100%;
         background-position: right;
     }
-    
+
     .stylingp {
         width: 80%;
     }
@@ -452,24 +432,23 @@ h3 {
     }
 
     .thirdintro p {
-     text-align: left;
+        text-align: left;
     }
 
-
     #container4 {
-    height: 300px;
+        height: 300px;
     }
 
     #container5 {
-    height: 300px;
-    margin-bottom: 10px;
+        height: 300px;
+        margin-bottom: 10px;
     }
 
     #container6 {
-    height: 200px;
+        height: 200px;
     }
 
     #container7 {
-    height: 300px;
+        height: 300px;
     }
 }
