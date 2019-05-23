@@ -3,11 +3,10 @@
 }
 
 body {
-
     transition: background-color 1s ease;
     background-color: rgb(211, 219, 223);
     font-size: 22px;
-    font-family: 'Lora',serif;
+    font-family: 'Lora', serif;
     font-weight: 100;
     margin: 0;
 }
@@ -16,7 +15,6 @@ main {
     margin: 0;
     padding: 0;
 }
-
 
 #container1 {
     width: 100vw;
@@ -41,14 +39,14 @@ main {
 .bildeContainer {
     width: 85%;
     margin: 80px auto;
-    height: 85%;    
+    height: 85%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
- .container h1 {
+.container h1 {
     /*background-color: blue;*/
     position: absolute;
     top: 50%;
@@ -59,11 +57,9 @@ main {
     font-weight: 100;
     color: white;
     text-align: center;
-    font-family:'Lora',serif;
-    cursor: pointer; 
-    
+    font-family: 'Lora', serif;
+    cursor: pointer;
 }
-
 
 p {
     position: absolute;
@@ -89,9 +85,7 @@ p {
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 #container2 {
-
     width: 100vw;
     height: 100vh;
     padding: 20px;
@@ -102,9 +96,7 @@ p {
     overflow: hidden;
 }
 
-
 #content2 {
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,9 +107,7 @@ p {
     transition: 1s cubic-bezier(.25, .46, .45, .94);
 }
 
-
 #container3 {
-
     width: 100vw;
     height: 100vh;
     padding: 20px;
@@ -126,13 +116,9 @@ p {
     position: relative;
     color: white;
     overflow: hidden;
-
-
 }
 
-
 #content3 {
-
     width: 85%;
     margin: 80px auto;
     height: 85%;
@@ -141,11 +127,9 @@ p {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
 }
-#container4 {
 
+#container4 {
     width: 100vw;
     height: 100vh;
     padding: 20px;
@@ -154,13 +138,9 @@ p {
     position: relative;
     color: white;
     overflow: hidden;
-
-
 }
 
-
 #content4 {
-
     width: 85%;
     margin: 80px auto;
     height: 85%;
@@ -169,12 +149,9 @@ p {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
 }
 
-#container5{
-
+#container5 {
     width: 100vw;
     height: 100vh;
     padding: 20px;
@@ -183,12 +160,9 @@ p {
     position: relative;
     color: white;
     overflow: hidden;
-
-
 }
 
 #content5 {
-
     width: 85%;
     margin: 80px auto;
     height: 85%;
@@ -197,11 +171,7 @@ p {
     background-size: cover;
     background-position: center;
     transition: 1s cubic-bezier(.25, .46, .45, .94);
-
-
 }
-
-
 
 @keyframes fadeInn {
     from {
@@ -233,62 +203,46 @@ p {
     animation: fadeInn 2s forwards;
 }
 
-
 @media only screen and (max-width: 1024px) {
-
-   
- p {
-    top: 60%;
+    p {
+        top: 60%;
     }
 
-#container1 {
-   
-    height: 500px;
-     transition-duration: 0.2s;
-     transition-delay: 0.2s;
-   
+    #container1 {
+        height: 500px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
 
-}
+    #container2 {
+        height: 500px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
 
-#container2 {
+    #container3 {
+        height: 500px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
 
-    height: 500px;
-     transition-duration: 0.2s;
-     transition-delay: 0.2s;
-
-
-}
-
-#container3 {
-
-    height: 500px;
-     transition-duration: 0.2s;
-     transition-delay: 0.2s;
-
-
-}
-
-#container4{
-
-    height: 500px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-
-
-}
+    #container4 {
+        height: 500px;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
 }
 
 @media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 35px;
+    }
 
- h1 {
-     font-size: 35px;
- }
-
-.p3 {
-    top: 60%;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-
+    .p3 {
+        top: 60%;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s;
+    }
 }
-}
+
 
